@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+body{
+    font-family: 'open Sans';
+    margin: 0;
+    padding: 0;
+}
+header, .empower{
+    display: flex;
+    flex-direction: row;
+    background-color: #606869;
+}
+.logo-img{
+    margin-left: 75px;
+    margin-top: 20px;
+    color: #fff;
+    width: 9vw;
+}
+.list-items {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin-left: 375px;
+    margin-top: 30px;
+}
+.list-item a {
+    margin-right: 50px;
+    text-decoration: none;
+    color: #fff;
+}
+.talk button{
+    background: transparent;
+    padding: 10px 50px;
+    color: #fff;
+    border: 2px solid #9c9c9c;
+    font-size: 15px;
+    margin-top: -15px;
+    margin-left: 45px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.empower{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 85vh;
+}
+.empower-img{
+    width: 30vw;
+    height: 65vh;
+    margin-top: 75px;
+    margin-left: 50px;
+}
+.empower-right{
+   width: 35vw;
+   margin-right: 150px;
+   margin-top: 75px;
+}
+.empower-right h2{
+    font-size: 55px;
+    color: #fff;
+}
+.empower-right p{
+    color: #dfdfdf;
+    width: 27.5vw;
+    line-height: 27.5px;
+}
+.email-field {
+    background-color: #fff;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+  }
+  
+  .email-btn input {
+    height: 30px;
+    width: 350px;
+    flex-grow: 5;
+    border: none;
+    outline: none;
+    padding: 10px 50px;
+    margin-left: -25px;
+  }
+  
+  .btn {
+    justify-content: flex-end;
+    background-color: #7bac8b;
+    color: #fff;
+    font-size: 15px;
+    position: relative;
+    margin-left: -130px;
+    padding: 12px 31px;
+    border: none;
+    cursor: pointer;
+  }
+.email-icon{
+    width: 1.25vw;
+    position: relative;
+    left: 20px;
+    top: 6px;
+}
+.heading{
+    margin-top: 75px;
+    margin-left: 550px;
+    width: 30vw;
+    text-align: center;
+}
+.numbers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.numbers p{
+    margin-top: -10px;
+    margin-left: -10px;
+}
+.video-img{
+    width: 76vw;
+    margin: 50px 175px;
+}
+.care{
+    margin-top: 75px;
+    margin-left: 550px;
+    width: 30vw;
+    text-align: center;
+    font-size: 30px;
+}
+.design{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.design-left{
+    width: 37.5vw;
+    margin-left: 100px;
+    margin-top: 25px;
+}
+.design-left h2{
+    font-size: 40px;
+}
+.design-left p{
+    width: 27.5vw;
+    font-weight: 400;
+    line-height: 27.5px;
+}
+.design-right img{
+    width: 35vw;
+}
+.btn-talk{
+    background-color: #7bac8b;
+    color: #fff;
+    font-size: 17px;
+    padding: 10px 40px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.client{
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+.client-left img{
+    width: 35vw;
+    height: 80vh;
+}
+.client-right {
+    margin-top: 75px;
+    margin-left: 150px;
+}
+.client-right h2{
+    width: 35vw;
+    font-size: 40px;
+}
+.client-right p{
+    width: 30vw;
+    line-height: 27.5px;
+}
+.people{
+    display: flex;
+    margin-top: 75px;
+    margin-left: 150px;
+}
+.people-left {
+    margin-top: 75px;
+    width: 45vw;
+}
+.people-right img{
+    width: 35vw;
+    height: 65vh;
+}
+.people-left h2{
+    font-size: 40px;
+    width: 35vw;
+}
+.people-left p{
+    width: 25vw;
+    line-height: 27.5px;
+}
+.creative{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+.creative h2{
+    width: 25vw;
+    font-size: 35px;
+}
+.creative p{
+    width: 27.5vw;
+    margin-left: 250px;
+    margin-top: 40px;
+    line-height: 27.5px;
+}
+.creators{
+    display: grid;
+    grid-template-columns: 450px 450px 450px;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.creator img{
+    width: 22.5vw;
+}
+.creator p{
+    width: 20vw;
+}
+.see-more{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+footer{
+    background-color: #000000;
+    margin-top: 75px;
+    color: #fff;
+    height: 47vh;
+}
+.footer-up{
+    display: flex;
+    justify-content: space-between;
+    margin:0px 100px;
+    padding: 25px 0px;
+    border-bottom: 1px solid #8a8a8a;
+}
+.footer-down{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.item{
+    list-style-type: none;
+     margin-bottom: 15px;
+}
+.items{
+    font-size: 12.5px;
+    margin-left: -40px;
+    color: #9c9c9c;
+}
+.foot-logo img{
+    width: 9vw;
+}
