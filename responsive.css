@@ -1,0 +1,207 @@
+@media screen and (min-width: 320px) and (max-width: 780px){
+    .list-item{
+        display: none;
+    }
+    .logo-img{
+        margin-left: 30px;
+        width: 100px;
+    }
+    .empower{
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+    }
+    .empower-img{
+        width: 425px;
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+    .empower-right{
+        margin-top: -20px;
+    }
+    .empower-right h2{
+        text-align: center;
+        width: 350px;
+        font-size: 30px ;
+        margin-left: 75px;
+    }
+    .empower-right p{
+        text-align: center;
+        width: 400px;
+        font-size: 20px ;
+        margin-left: 50px;
+    }
+    .email-icon{
+        width: 20px;
+        position: relative;
+        left: 2px;
+        top: 40px;
+    }
+    .email-btn{
+        margin-left: 50px;
+    }
+    .btn{
+        position: relative;
+        top: -45px;
+        left: 425px;
+    }
+    .heading{
+        margin-top: 25px;
+        margin-left: 20px;
+        width: 90vw;
+        text-align: center;
+    }
+    .numbers{
+        display: grid;
+        grid-template-columns: 150px 150px;
+    }
+    .numbers p{
+        margin-top: -10px;
+        margin-left: -10px;
+    }
+    .video-img{
+        width: 75vw;
+        margin: 50px 50px;
+    }
+    .care{
+        margin-top: -50px;
+        margin-left: 50px;
+        width: 80vw;
+        text-align: center;
+        font-size: 25px;
+    }
+    .design{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .design-left{
+        width: 75vw;
+        margin-left: 50px;
+        margin-top: 25px;
+    }
+    .design-left h2{
+        font-size: 30px;
+        text-align: center;
+    }
+    .design-left p{
+        width: 75vw;
+        text-align: center;
+    }
+    .design-right img{
+        width: 85vw;
+        margin-left: 25px;
+    }
+    .btn-talk{
+        margin-left: 100px;
+        margin-top: 10px;
+    }
+    .client{
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+    .client-left img{
+        width: 75vw;
+        height: 80vh;
+    }
+    .client-right {
+        margin-top: 25px;
+        margin-left: 20px;
+    }
+    .client-right h2{
+        width: 75vw;
+        font-size: 30px;
+        text-align: center;
+    }
+    .client-right p{
+        width: 78vw;
+        line-height: 25px;
+        text-align: center;
+    }
+    .people{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 25px;
+        margin-left: 50px;
+    }
+    .people-left {
+        margin-top: 25px;
+        width: 75vw;
+    }
+    .people-right img{
+        width: 75vw;
+        height: 65vh;
+    }
+    .people-left h2{
+        font-size: 30px;
+        width: 75vw;
+        text-align: center;
+    }
+    .people-left p{
+        width: 75vw;
+        text-align: center;
+    }
+    .creative{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+    .creative h2{
+        width: 75vw;
+        text-align: center;
+    }
+    .creative p{
+        width: 75vw;
+        margin-left: 10px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .creators{
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+    .creator img{
+        width: 75vw;
+    }
+    .creator p{
+        width: 60vw;
+    }
+    .see-more{
+        text-align: center;
+        margin-top: 50px;
+        margin-left: -700px;
+    }
+    footer{
+        background-color: #000000;
+        margin-top: 75px;
+        color: #fff;
+        height: fit-content;
+    }
+    .footer-up{
+        display: flex;
+        flex-direction: column;
+        margin:0px 20px;
+    }
+    .footer-down{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 30px;
+    }
+    .item{
+        list-style-type: none;
+         margin-bottom: 15px;
+    }
+    .items{
+        display: none;
+    }
+    .foot-logo img{
+        width: 25vw;
+    }
+    .box h3{
+        font-size: 10px;
+    }
+}
